@@ -1,0 +1,275 @@
+
+html,body{
+    margin: 0;
+    padding: 0;
+    
+}
+/*Header-----------------------------*/
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header > .logo {
+   padding: 26px 30px;
+   
+}
+.header > .navigation-wrapper {
+     display: flex;
+     height: 100%;
+     position: relative;
+     width: 620px;
+}
+
+.header > .navigation-wrapper > .nav-title {
+    color: #dbcc68;
+    font-size: 10px;
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    position: absolute;
+    left: 15px;
+    bottom: 35px;
+}
+
+.header > .navigation-wrapper > .nav-bar  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:absolute;
+    bottom: 20px;
+} 
+
+.header > .navigation-wrapper > .nav-bar a { 
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px; 
+    font-weight: 900;
+    margin-left: 15px;
+    transition: 0.4s;
+}
+
+.header > .navigation-wrapper > .nav-bar a:hover { 
+    letter-spacing:1px;
+    color:#4bce79;
+}
+
+.header > .navigation-wrapper > .nav-bar button { 
+    background-color: black;
+    color: rgb(197, 188, 188);
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lato',sans-serif;
+    font-weight: 700;
+    margin-left: 30px;
+    bottom:14px;
+}
+.header > .navigation-wrapper > .nav-bar i{
+    margin-left: 15px;
+    color: rgb(197, 188, 188);
+    font-size: 0.8 em;
+}
+
+
+
+/*Header Right Chunk-------------------*/
+
+.header > .right-chunk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 520px;
+}
+
+.header > .right-chunk> .create-button button{
+    background-color: #343436;
+    padding: 18px 22px;
+    border-radius: 5px;
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lato',sans-serif;
+    font-weight: 700;
+    border: none;
+    
+}
+.header > .right-chunk> .create-button button i{
+    margin-left: 10px;
+    color: #0de931;
+    font-size: 1.4rem;
+}
+.header > .right-chunk> .magnifier{
+    color: #9191a1;
+    font-size: 2.3em;
+    padding: 20px;
+}
+
+.header > .right-chunk > .btn-login button{
+
+    background-color: #343436;
+    padding: 18px 30px;
+    border-radius: 5px;
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lato',sans-serif;
+    font-weight: 700;
+    border: none;
+    margin-right: 10px;
+
+}
+
+.header > .right-chunk > .btn-signup button {
+
+    background-color: #343436;
+    padding: 18px 30px;
+    border-radius: 5px;
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lato',sans-serif;
+    font-weight: 700;
+    border: none;
+    margin-right: 20px;
+}
+/* Central Part ---------------------------*/
+
+.central-part {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    background: linear-gradient(104deg, #474c58, #0b0b0d);
+}
+/*---------------Central Part Left Side-----------------------*/
+
+
+.central-part > .left-side {
+    padding: 30px 54px;
+    position: relative;
+}
+
+.central-part > .left-side > .upper-text p {
+    font-family: 'Lato',sans-serif;
+    font-weight: lighter;
+    font-size: 38px;
+    color: #ffffff;
+}
+
+.central-part > .left-side > .upper-text p strong{
+    color: white;
+    font-weight: 700;
+}
+
+
+.central-part > .left-side > .upper-text .hand{
+    position: absolute;
+    transform: rotate(-8deg);
+    font-size: 2.2em;
+    top: 155px;
+    left: 320px;
+}
+
+
+.central-part > .left-side > .bottom-text  {
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #d4d4db;
+}
+
+.central-part > .left-side >.left-side-buttons {
+    display: flex;
+    align-items: center;
+}
+.central-part > .left-side > .left-side-buttons > .signup-for-free button {
+    color: black;
+    background-color: #4bce79;
+    text-decoration: none;
+    padding: 20px 35px ;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-right: 20px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+}   
+.central-part > .left-side > .left-side-buttons > .learn-more button {
+    color: white;
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+/* Central Part Right Side----------------------*/
+
+.central-part > .right-side >.right-text {
+    color: white;
+    padding-top: 50px;
+    padding-left: 14px;
+    padding-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    font-family: 900;
+    font-size: 18px;
+    
+}
+.central-part > .right-side >.right-text a {
+    color: #72d1f2;
+    text-decoration: none;
+    font-family: 'Lato',sans-serif;
+    font-weight: 900;
+       
+}
+
+.central-part > .right-side img{
+    width: 100%;
+    height: auto;
+    margin-right:0px;
+    box-shadow: -4px 10px 20px 0px rgba(10,4,10,1);
+}
+
+/*Footer Area--------------------------------*/
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1.1fr 1.1fr 1fr;
+    background-color:#42464f;
+    width: 100%;
+
+}
+
+.footer > .codefor-rectangle {
+    color: white;
+    font-size: 18px;
+    font-family: 'Lato',sans-serif;
+    font-weight: 700;
+    border:1px solid darkgray;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 60px;
+    
+
+}
+
+.footer > .codefor-rectangle strong{
+    color: white;
+    font-family: 'telefono',sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: -2px
+}
+.bottom {
+    background-color:#25272d;
+    width: 100%;
+    height: 80px;
+}
